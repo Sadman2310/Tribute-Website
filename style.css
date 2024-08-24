@@ -1,0 +1,82 @@
+/* reset code and common starts here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset code and common ends here */
+/* container starts here */
+.container{
+    min-height: 100vh;
+    background-color: #e5e5fd;
+    border: 10px solid #1d1e4c;
+}
+/* container ends here */
+/* content starts here */
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.sec__img{
+    max-width: 300px;
+    height: 320px;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 0.4s linear;
+}
+.sec__img:hover{
+    border: 5px solid navy;
+}
+
+.top__sec{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.intro__name{
+    transition: all 0.3s linear;
+}
+.intro__name:hover{
+    text-decoration: underline 2px solid navy;
+}
+
+.intro__birth{
+    text-align: end;
+    transition: all 0.3s linear;
+}
+.intro__birth:hover{
+    text-decoration: underline 2px solid navy;
+}
+.about__sec{
+    margin-top: 50px;
+}
+.about__heading{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about__desc{
+    text-align: justify;
+}
+.biography__sec{
+    margin-top: 50px;
+}
+.bio__heading{
+    margin-bottom: 20px;
+}
+.bio__ul{
+    margin-left: 50px;
+}
+.bio__list{
+    margin-bottom: 20px;
+}
+.bottom__sec{
+    margin: 20px 0;
+}
+.bottom__text{
+    text-align: end;
+}
+/* content ends here */
